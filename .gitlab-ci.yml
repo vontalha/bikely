@@ -1,0 +1,10 @@
+default:
+  image: node:18-alpine
+  before_script:
+    - npm ci
+
+test:
+  script:
+    - npm run test
+  rules:
+    - if: $CI_COMMIT_BRANCH == "dev"

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile renders correctly 1`] = `
+<View>
+  <View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      nativeBackgroundAndroid={
+        {
+          "attribute": "selectableItemBackground",
+          "rippleRadius": undefined,
+          "type": "ThemeAttrAndroid",
+        }
+      }
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        [
+          {
+            "backgroundColor": "#2196F3",
+            "borderRadius": 2,
+            "elevation": 4,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontWeight": "500",
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        LOGOUT
+      </Text>
+    </View>
+  </View>
+</View>
+`;
